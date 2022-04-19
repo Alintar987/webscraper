@@ -1,6 +1,6 @@
 # [Webscraper Para Cuevana](https://cuevana3.me/)
 
-Este es un pequeño proyecto que consigue las caratulas de las peliculas de un sitio web llamado **[Cuevana3](https://cuevana3.me/)** y crea un html con los links de los videos y lo ejecuta al instante para dejarlo visualizar de forma organizada y sin anuncios.
+Este es un pequeño proyecto que crea archivos `HTML` que consiste en conseguir las caratulas de las peliculas de un sitio web llamado **[Cuevana3](https://cuevana3.me/)** y crea un html con los links de los videos y lo ejecuta al instante para dejarlo visualizar de forma organizada y sin anuncios.
 
 ## Instalacion
 Para poder utilizar el script debemos descargar el proyecto y los requerimientos en un ambiente virtual.
@@ -46,6 +46,9 @@ cuando nos crea el archivo HTML con los resultados agrega al `body` un `a` y den
     </body>
 </html>
 ```
+
+## Ejemplo 
+podemos ver que hay un archivo `ejemplo.html` lo podemos abrir en el navegador donde muestra como queda el resultado de los archivos HTML que crea el script.
 
 ## Librerias
 Las librerias usadas en este pequeño proyecto son:
