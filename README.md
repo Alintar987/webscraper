@@ -41,7 +41,7 @@ cuando nos crea el archivo HTML con los resultados agrega al `body` un `a` y den
     </head>
     <body>
         <a href="" target="_blank">
-                <img src="" alt="">
+            <img src="" alt="">
         </a>
     </body>
 </html>
