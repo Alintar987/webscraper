@@ -7,7 +7,7 @@ Para poder utilizar el script debemos descargar el proyecto y los requerimientos
 
 Primero tenemos que descargar el proyecto con:
 ```bash
-git clone https://github.com/Alintar987/webscraping-cuevana.git
+git clone https://github.com/Alintar987/webscraper.git
 ```
 Es recomendable crear un ambiete virtual para mantener todo en una misma carpeta para eso nos movemos a la ruta con **[cd](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/cd)** y ponemos el siguiente comando:
 ```bash
