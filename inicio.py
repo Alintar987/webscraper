@@ -1,12 +1,8 @@
 
-from os import system as cmd
 from tqdm.auto import tqdm
 import videos
 import obtener
 import caratula
-
-cmd('@mode con cols=60 lines=4')
-cmd('color 09')
 
 # Inicio del html
 DATA = """<!DOCTYPE html
@@ -14,7 +10,7 @@ DATA = """<!DOCTYPE html
     <head>
         <title>Peliculas</title>
     </head>
-    <body>
+    <body bgcolor = ”#000000">
 """
 # Final del html
 DATAB = """
@@ -76,5 +72,4 @@ else:
     generar1.write(DATAB)
     generar1.close()
 
-    # Ejecutar HTML creado
-    cmd(f'"{op}.html"')
+

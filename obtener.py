@@ -4,16 +4,16 @@ import link
 from tqdm.auto import tqdm
 
 def main(search):
-    cmd('cls')
+    cmd('clear')
 # -------------------------- Buscar -------------------------------------
     # Crear un objeto del navegador 
     browser = mechanicalsoup.StatefulBrowser()
 
     # Meter pagina web dentro del objeto
-    browser.open("https://cuevana3.me/")
+    browser.open("https://ww3.cuevana3.me/")
 
     # Seleccionar el formulario de la barra de busqueda
-    browser.select_form('form[action="https://cuevana3.me/"]')
+    browser.select_form('form[action="https://ww3.cuevana3.me/"]')
 
     # Poner el nombre asignado al formulario y el texto
     browser["s"] = search

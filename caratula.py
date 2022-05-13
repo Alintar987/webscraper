@@ -21,8 +21,6 @@ def ob_caratula(url):
             # Guardar en una variable el primer dato de la lista
             op = str(link.attrs['data-src'])
 
-            # Descargar la imagen de forma local 
-            #urllib.request.urlretrieve(op, f"temp/image{numero_de_imagen}.png")
-
             break
+
     return op
